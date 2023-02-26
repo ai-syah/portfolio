@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color: rgb(69, 69, 69);
+  color: white;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  padding: 20px 40px;
+  font-size: 35px;
+  font-style: none;
+  letter-spacing: 5px;
+}
+.header-list li {
+  float: left;
+  padding: 30px 30px;
+}
+.top-wrapper {
+  height: 1000px;
+  text-align: center;
+}
+.top-wrapper h1 {
+  font-size: 150px;
+  letter-spacing: 5px;
+}
+.top-wrapper h1 span {
+  color: yellow;
+}
+.top-wrapper p {
+  font-size: 80px;
+  font-weight: lighter;
+}
+.top-wrapper img {
+  height: 400px;
+  width: 400px;
+}
+.tentang {
+  text-align: center;
+  background-color: rgb(209, 209, 209);
+  padding: 50px;
+}
+
+.content-title {
+  text-align: center;
+}
+.contents {
+  width: 100%;
+  height: 500px;
+}
+.content {
+  width: 25%;
+  display: inline-flex;
+  flex-direction: column;
+  float: left;
+  margin: 0 50px;
+  text-align: center;
+}
+.contact {
+  height: 400px;
+  text-align: center;
+  background-color: #e4e4e4;
+  padding: 40px;
+}
+.contact-title {
+  width: 100%;
+}
+.email {
+  width: 400px;
+}
+textarea {
+  width: 100px;
+}
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec; /*batas*/
+  align-items: center;
+}
+.submit-button {
+  background: #fdfd96;
+}
+.footer {
+  height: 200px;
+  background-color: rgb(116, 116, 116);
+  color: white;
+}
+.footer-title {
+  padding: 10px 50px 0 50px;
+  letter-spacing: 7px;
+}
+.info {
+  text-align: right;
+}
+.info li {
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
